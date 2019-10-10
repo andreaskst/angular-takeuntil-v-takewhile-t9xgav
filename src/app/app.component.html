@@ -1,0 +1,12 @@
+<button (click)="onToggleTakeUntil()">Toggle takeUntil()</button>
+<button (click)="onToggleTakeWhile()">Toggle takeWhile()</button>
+
+<div style="margin-top: 10px;" *ngIf="showTakeUntil">
+  <h1>Take Until Counter</h1>
+  <app-counter-take-until></app-counter-take-until>
+</div>
+
+<div style="margin-top: 10px;" *ngIf="showTakeWhile">
+  <h1>Take While Counter</h1>
+  <app-counter-take-while></app-counter-take-while>
+</div>
